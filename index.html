@@ -60,7 +60,13 @@
         <div class="hidden md:hidden px-6 pb-9" id="mobile-menu">
             <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Explore</a>
             <div class="px-4 py-2">
-                <button class="w-full text-left text-gray-700 hover:text-indigo-600">Resources ▾</button>
+                <button class="w-full text-left text-gray-700 hover:text-indigo-600">Resources
+                    <svg width="20" height="25" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.25 11.54L10 15.29L13.75 11.54" stroke="#11023B" stroke-width="1.25" />
+                    </svg>
+
+
+                </button>
                 <div class="mt-2 space-y-2">
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-100">Docs</a>
                     <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-indigo-100">API</a>
@@ -71,21 +77,18 @@
         </div>
     </header>
 
-    <main class="bg-cover bg-center pt-[49px] w-full px-5 md:px-0 md:pb-[280px] pb-[100px]"
-        style="background-image: url('./assets/background-main.png');">
+    <main class="bg-no-repeat bg-cover bg-center pt-[49px] w-full px-5 md:px-0 md:pb-[280px] pb-[100px]"
+        style="background-image: url('./assets/dot-overlay.png');">
         <div
             class="xs:max-w-fit xs:m-auto justify-center border xs:border-[#E3E3FE] xs:py-1 xs:px-3 xs:rounded-full xs:bg-[linear-gradient(94.57deg,_rgba(202,_206,_255,_0.1)_0%,_rgba(193,_188,_254,_0.1)_100%)] xs:block hidden">
             <li class="font-inter text-[#46279b] md:text-[14px] text-[12px] font-medium">
                 Shopify Resources for Designers, Devs and merchants
             </li>
         </div>
-
-
         <h1
             class="font-inter mx-auto pt-5 text-[35px] font-medium leading-[1.2] max-w-[450px] text-center text-transparent bg-clip-text bg-gradient-to-r from-[#11023B] to-[#321675] md:text-[58px] md:max-w-[659px] md:leading-[1.2]">
             The world’s destination for Shopify resources.
         </h1>
-
         <p class="font-inter md:max-w-[559px] max-w-[400px] text-center md:text-[16px] text-[13px] mx-auto pt-3">
             Flowbase is the world's largest premium library of Webflow, Figma & Framer
             components and tools. Build better, faster with Flowbase.
@@ -114,8 +117,8 @@
 
     <div class="empty-space md:h-[1000px] h-[500px]"></div>
 
-    <footer class="bg-white py-8 border-t border-gray-200">
-        <div class="max-w-[1220px] mx-auto px-4 sm:px-6 lg:px-8 md:px-0">
+    <footer class=" py-8">
+        <div class="max-w-[1220px] mx-auto px-4 sm:px-6 lg:px-8 md:px-0 sm:mt-[100px]">
             <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                 <a href="#"
                     class="flex items-center text-transparent hover:text-blue-700 ease-in-out duration-30 bg-clip-text bg-gradient-to-r from-[#11023B] to-[#321675] justify-center gap-1 text-xl font-inter text-[18px] font-semibold leading-[24px] tracking-[0.72px]">
@@ -143,7 +146,6 @@
                                 d="M3.00958 17.3396V9.55183H0.334045V6.51676H3.00958V4.27849C3.00958 1.68099 4.6292 0.266602 6.99477 0.266602C8.12791 0.266602 9.10178 0.349239 9.38559 0.386175V3.10071L7.74494 3.10144C6.45841 3.10144 6.2093 3.70027 6.2093 4.579V6.51676H9.27756L8.87806 9.55183H6.2093V17.3396H3.00958Z"
                                 fill="#18181B" />
                         </svg>
-
                     </a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">
                         <span class="sr-only">Instagram</span>
@@ -159,7 +161,6 @@
                                 d="M15.5896 5.56895C16.2323 5.56895 16.7533 5.05858 16.7533 4.42901C16.7533 3.79943 16.2323 3.28906 15.5896 3.28906C14.9468 3.28906 14.4258 3.79943 14.4258 4.42901C14.4258 5.05858 14.9468 5.56895 15.5896 5.56895Z"
                                 fill="#27272A" />
                         </svg>
-
                     </a>
                     <a href="#" class="text-gray-600 hover:text-indigo-600">
                         <span class="sr-only">GitHub</span>
@@ -173,8 +174,10 @@
                     </a>
                 </div>
             </div>
-            <div class="border-t border-gray-200 mt-6"></div>
-            <div class="flex flex-col md:flex-row justify-between items-center mt-4 space-y-4 md:space-y-0">
+        </div>
+        <div class="border-t border-gray-200 mt-11 max-w-full"></div>
+        <div class="max-w-[1220px] mx-auto px-4 sm:px-6 lg:px-8 md:px-0 md:pb-[55px] pb-8">
+            <div class="flex flex-col md:flex-row justify-between items-center mt-8 space-y-4 md:space-y-0">
                 <p class="text-sm text-[#52525B] font-inter text-[14px] leading-[26px] font-normal">© Copyright 2024,
                     All Rights Reserved</p>
                 <div class="flex space-x-4">
