@@ -10,10 +10,13 @@ module.exports = {
         darkBlue: "#11023B",
       },
       maxWidth: {
-        '1000px': '1000px', 
+        '500px': '500px', 
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+      },
+      screens: {
+        'xs': '500px',
       },
     },
   },
