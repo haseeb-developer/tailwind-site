@@ -1,11 +1,6 @@
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
 
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          primary: '#FF6363',
-          secondary: '#1E40AF',
-        },
-      },
-    },
-  };
+menuToggle.addEventListener('click', () => {
+mobileMenu.classList.toggle('hidden');
+});
